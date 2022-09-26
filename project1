@@ -1,0 +1,33 @@
+
+
+#include<stdio.h>
+int main()
+{
+	char ch = 'a';
+	int s = 10;
+	printf("%c\n",ch);
+	printf("hello world\n");
+	printf("%d\n", s);
+	long n = 100;
+	printf("%d\n", n);
+	double f = 6.66;
+	printf("%lf\n", f);
+	float m = 2.0;
+	printf("%f\n", m);
+	short int t = 3;
+	printf("%d\n", t);
+	printf("%lld\n", sizeof(char));
+
+	printf("%lld\n", sizeof(double));
+	printf("%lld\n", sizeof(float));
+	printf("%lld\n", sizeof(long));
+	printf("%lld\n", sizeof(short));
+	printf("%lld\n", sizeof(long long));
+
+
+
+
+
+	return 0;
+}
+
